@@ -92,3 +92,4 @@ const ElectiveDocument=doc.map((student) => {
 console.log(ElectiveDocument)
 let excelDocument = json2xls(ElectiveDocument);
 fs.writeFileSync("Electives.xlsx", excelDocument, "binary")
+
